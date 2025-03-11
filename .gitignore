@@ -1,0 +1,21 @@
+# Specific directories to ignore
+llama.cpp/
+model/
+unsloth_compiled_cache/
+unsloth_training_sample.egg-info/
+lora_model/
+outputs/
+*unsloth*sentencepiece_temp/
+a_model/
+
+# Common Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
